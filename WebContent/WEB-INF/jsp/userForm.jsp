@@ -12,20 +12,20 @@
 <form:form method="POST" commandName="user">
 	<table>
 		<tr>
-			<td>Student Name :</td>
+			<td>StudentName :</td>
 			<td><form:input path="name" /></td>
 		</tr>
 		<tr>
-			<td>Student Password :</td>
+			<td>StudentPassword :</td>
 			<td><form:password path="password" /></td>
 		</tr>
 		<tr>
-			<td>Gender :</td>
+			<td>Gender:</td>
 			<td><form:radiobutton path="gender" value="M" label="M" /> 
 				<form:radiobutton path="gender" value="F" label="F" /></td>
 		</tr>
 		<tr>
-			<td>Country :</td>
+			<td>Country:</td>
 			<td><form:select path="country">
 				<form:option value="0" label="Select" />
 				<form:option value="1" label="IND" />
