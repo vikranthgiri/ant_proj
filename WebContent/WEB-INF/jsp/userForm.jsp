@@ -12,9 +12,14 @@
 <form:form method="POST" commandName="user">
 	<table>
 		<tr>
-			<td>StudentName :</td>
+			<td>Student First Name :</td>
 			<td><form:input path="name" /></td>
 		</tr>
+		<tr>
+                        <td>Student Last Name :</td>
+                        <td><form:input path="name" /></td>
+                </tr>
+
 		<tr>
 			<td>StudentPassword :</td>
 			<td><form:password path="password" /></td>
