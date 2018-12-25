@@ -17,18 +17,18 @@
 <form:form method="POST" commandName="user">
 	<table>
 		<tr>
-			<td>StudentFirstName :</td>
+			<td>Student_FirstName:</td>
 			<td><form:input path="name" /></td>
 		</tr>
                 
 	
 		<tr>
-                        <td>StudentLastName :</td>
+                        <td>Student_LastName:</td>
                         <td><form:input path="name" /></td>
                 </tr>
 
 		<tr>
-			<td>StudentPassword :</td>
+			<td>Student_Password:</td>
 			<td><form:password path="password" /></td>
 		</tr>
 		<tr>
